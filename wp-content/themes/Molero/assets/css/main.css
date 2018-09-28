@@ -94,9 +94,9 @@ a:hover{
     padding: 30px;
 }
 .presente h2{
-   font-size: 20px;
-   font-weight: bold;
-   padding-bottom: 50px;
+ font-size: 20px;
+ font-weight: bold;
+ padding-bottom: 50px;
 }
 .service h2{
     font-size: 20px;
@@ -192,13 +192,13 @@ a:hover{
     color: #ee0108;
 }
 .form-style input[type="submit"]{
-   color: white;
-   background: #ee0108;
-   padding:7px 25px;
-   border-radius: 5px;
-   border: none;
-   float: right;
-   margin-top: 15px;
+ color: white;
+ background: #ee0108;
+ padding:7px 25px;
+ border-radius: 5px;
+ border: none;
+ float: right;
+ margin-top: 15px;
 }
 .equipo{
     padding: 50px 0;
@@ -208,6 +208,7 @@ a:hover{
     position: relative;
     padding-bottom: 5px;
     border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
 }
 .c-equipo h2{
     padding-top: 6px;
@@ -226,4 +227,75 @@ a:hover{
     padding: 8px 20px;
     font-size: 11px;
     border-radius: 5px;
+}
+.info-equipo p{
+   font-size: 12px;
+   font-weight: bold;
+}
+.info-equipo li{
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.cursos{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+}
+.cursos strong{
+    color: #ee0108;
+}
+.content-img-person{
+    width: 100px;
+}
+.content-person{
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ grid-gap: 10px;
+ padding-bottom: 78px;
+}
+.content-person strong{
+    font-size: 17px;
+    color: #ee0108;
+}
+.content-person p{
+    font-size: 10px;
+}
+.content-img-person img{
+
+    border-radius: 10px;
+}
+.border-bottom{
+    border-bottom: 1px solid #ccc;
+}
+.fondo-instalaciones{
+    background-image: url(../img/04.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+    object-fit: cover;
+    height: 80vh;
+}
+.text-instalaciones{
+    background: #0000007d;
+    padding: 0px 0 20px;
+    color: white;
+}
+.text-instalaciones p{
+ background: #ee0108;
+ padding-bottom: 8px;
+ padding-top: 8px;
+}
+.instalaciones h2{
+    font-size: 20px;
+}
+.titulo-instalaciones p{
+    font-size: 10px;
+}
+.titulo-instalaciones{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.capa{
+    background: rgba(0, 0, 0, 0.7);
+    height: 80vh;
 }
