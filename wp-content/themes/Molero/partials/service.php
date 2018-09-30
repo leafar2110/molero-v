@@ -204,12 +204,36 @@
 							<h3><strong>TESTIMONIOS</strong></h3>
 							<p> Lo que nuestros clientes opinan</p>
 						</div>
+						<div class="">
+							<div class="opinion">
+								<div class="text-center content-opinion">
+									<div class="centrar-grid  text-opinion">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores labore nisi eos magnam, voluptatibus odio facere tempora dignissimos saepe nemo tempore sequi, quam expedita error. Aliquam recusandae quae rerum laborum?</p>
+									</div>
+									<h4 class="text-center"><strong>Pedro Pérez</strong></h4>
+									<p>Chofer</p>
+								</div>
+								<div class="text-center content-opinion">
+									<div class="centrar-grid  text-opinion">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores labore nisi eos magnam, voluptatibus odio facere</p>
+									</div>
+									<h4 class="text-center"><strong>Juan Pérez</strong></h4>
+									<p>Chofer</p>
+								</div>
+								<div class="text-center content-opinion">
+									<div class="centrar-grid text-opinion">
+										<p>voluptatibus odio facere tempora dignissimos saepe nemo tempore sequi, quam expedita error. Aliquam recusandae quae rerum laborum?</p>
+									</div>
+									<h4 class="text-center"><strong>Miguel Pérez</strong></h4>
+									<p>Chofer</p>
+								</div>
+							</div></div>
+						</div>
+						<div class="col-md-12 linea-s">
+							<hr>
+						</div>
 					</div>
-					<div class="col-md-12 linea-s">
-						<hr>
-					</div>
-				</div>
 
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>

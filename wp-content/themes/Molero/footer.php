@@ -84,6 +84,21 @@
 				fade: true,
 				cssEase: 'linear',
 			});
+			$('.opinion').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				fade: true,
+				cssEase: 'linear',
+			});
+			$('.autoplay-2').slick({
+				slidesToShow: 3,
+				slidesToScroll: 3,
+			/*	autoplay: true,
+			autoplaySpeed: 4000,*/
+				infinite: true,
+			});
+
 		});
 
 	</script>

@@ -1,5 +1,7 @@
 
-
+*{
+   outline: -webkit-focus-ring-color auto 0px !important;
+}
 a:hover{
     text-decoration: none;
 }
@@ -298,4 +300,65 @@ a:hover{
 .capa{
     background: rgba(0, 0, 0, 0.7);
     height: 80vh;
+    display: grid;
+    align-items: baseline;
+}
+.opinion .slick-next {
+    top: -70px;
+    padding: 0px;
+    z-index: 999;
+    right: 15px;
+}
+.opinion .slick-prev{
+    top: -70px;
+    z-index: 999;
+    left: 465px;
+}
+.opinion .slick-prev:before {
+    content: "\f104" !important;
+    font: 35px fontawesome;
+    background: #808893;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+.opinion .slick-next:before {
+    content: "\f105" !important;
+    font: 35px fontawesome;
+    background: #808893;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+.text-opinion{
+    background: #e4e4e4;
+    height: 42vh;
+}
+.centrar-grid{
+    display: grid !important;
+    align-items: center;
+    height: 42vh !important;
+}
+.centrar-grid p{
+    padding: 0px 60px;
+    font-size: 16px;
+    font-style: italic;
+}
+.content-opinion h4{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #ee0108;
+
+}
+.content-img-inst{
+ padding: 15px 30px 30px;
+}
+.content-img-inst img{
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.39);
+}
+
+.autoplay-2 .slick-next:before {
+   display: none;
+}
+.autoplay-2 .slick-prev:before{
+    display: none;
 }
