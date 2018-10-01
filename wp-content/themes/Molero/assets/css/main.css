@@ -417,4 +417,50 @@ a:hover{
 }
 .text-comp p{
     padding-bottom: 20px;
+
+}
+.fondo-software{
+    background: #969696;
+    padding: 50px;
+    font-size: 22px;
+    color: white;
+}
+.software h1{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.software{
+    padding: 35px 0;
+}
+.software p{
+ padding: 0 60px;
+ font-size: 20px;
+}
+.producto{
+    background-image: url(../img/IMG_8046.JPG);
+    background-image: url(../img/IMG_8046.JPG);
+    height: 80vh;
+    background-size: cover;
+    background-position-y: -100px;
+}
+.capa-producto{
+    background: #000000e0;
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.content-producto{
+    padding: 10px;
+    background: white;
+
+    height: 48vh;
+    width:100vh;
+}
+.section-product h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.content-producto p{
+    font-size: 10px;
 }
