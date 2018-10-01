@@ -73,4 +73,12 @@
 <?php  get_template_part('partials/maquinarias'); ?>
 <!-- ***********************END SECTION HOME*************************** -->
 
+
+
+
+<!-- ***********************END SECTION HOME*************************** -->
+<?php  get_template_part('partials/compromiso'); ?>
+<!-- ***********************END SECTION HOME*************************** -->
+
+
 <?php  get_footer(); ?>

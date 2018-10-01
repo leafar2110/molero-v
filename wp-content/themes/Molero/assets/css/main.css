@@ -298,7 +298,7 @@ a:hover{
     margin-bottom: 20px;
 }
 .capa{
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     height: 80vh;
     display: grid;
     align-items: baseline;
@@ -353,7 +353,7 @@ a:hover{
 }
 .content-img-inst img{
     border-radius: 7px;
-    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.39);
 }
 
 .autoplay-2 .slick-next:before {
@@ -361,4 +361,60 @@ a:hover{
 }
 .autoplay-2 .slick-prev:before{
     display: none;
+}
+.maquinarias{
+    padding: 50px 0;
+}
+.titulo-maqui h4{
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-card-maqui{
+    border: 1px solid #ccc;
+    height: 70vh;
+}
+.content-text-maqui h5{
+    margin-top: 47px;
+    padding: 20px;
+    font-size: 15px;
+    border-top: 4px solid #ee0108;
+}
+.content-text-maqui p{
+    font-size: 13px;
+    color: #737373;
+    padding: 10px 20px;
+}
+.separador-maqui{
+    padding: 0 35px;
+}
+.content-border{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 80px;
+}
+.compromiso{
+    background-image: url(../img/DSC_0693.JPG);
+    height: 95vh;
+    background-size: cover;
+    background-position-y: -264px;
+}
+.capa-compromiso{
+   background: rgba(238, 1, 8, 0.8);
+   color: white;
+   height: 95vh;
+   display: grid;
+   align-items: center;
+}
+.text-comp strong{
+    color: yellow;
+}
+.titulo-comp strong{
+    border-bottom: 3px solid;
+}
+.titulo-comp h4{
+    padding-bottom: 20px;
+}
+.text-comp p{
+    padding-bottom: 20px;
 }
