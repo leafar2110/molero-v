@@ -26,7 +26,7 @@
 						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">CLIENTE</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">EQUIPO</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">PRODUCTO</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>"><strong>NUESTRO COMPROMISO</strong></a></li>
+						<li class="nav-item nav-comp"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>"><strong>NUESTRO COMPROMISO</strong></a></li>
 					</ul>
 				</div>
 			</div>

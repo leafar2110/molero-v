@@ -1,6 +1,6 @@
 
 *{
-   outline: -webkit-focus-ring-color auto 0px !important;
+ outline: -webkit-focus-ring-color auto 0px !important;
 }
 a:hover{
     text-decoration: none;
@@ -26,6 +26,21 @@ a:hover{
 
     background: white;
     border-radius: 5px;
+}
+.nav-comp{
+    background: #ee0108;
+    padding: 18px;
+    transform: skewX(-25deg);
+}
+.nav-comp a{
+    transform: skewX(24deg);
+    padding: 10px;
+}
+.nav-item{
+    padding-top: 18px;
+}
+.nav-comp strong{
+    color: white;
 }
 .nav-logo{
     height: 85px;
@@ -96,9 +111,9 @@ a:hover{
     padding: 30px;
 }
 .presente h2{
- font-size: 20px;
- font-weight: bold;
- padding-bottom: 50px;
+   font-size: 20px;
+   font-weight: bold;
+   padding-bottom: 50px;
 }
 .service h2{
     font-size: 20px;
@@ -194,13 +209,14 @@ a:hover{
     color: #ee0108;
 }
 .form-style input[type="submit"]{
- color: white;
- background: #ee0108;
- padding:7px 25px;
- border-radius: 5px;
- border: none;
- float: right;
- margin-top: 15px;
+   color: white;
+   cursor: pointer;
+   background: #ee0108;
+   padding:7px 25px;
+   border-radius: 5px;
+   border: none;
+   float: right;
+   margin-top: 15px;
 }
 .equipo{
     padding: 50px 0;
@@ -231,8 +247,8 @@ a:hover{
     border-radius: 5px;
 }
 .info-equipo p{
-   font-size: 12px;
-   font-weight: bold;
+ font-size: 12px;
+ font-weight: bold;
 }
 .info-equipo li{
     font-size: 11px;
@@ -251,10 +267,10 @@ a:hover{
     width: 100px;
 }
 .content-person{
- display: grid;
- grid-template-columns: 1fr 2fr;
- grid-gap: 10px;
- padding-bottom: 78px;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-gap: 10px;
+   padding-bottom: 78px;
 }
 .content-person strong{
     font-size: 17px;
@@ -283,9 +299,9 @@ a:hover{
     color: white;
 }
 .text-instalaciones p{
- background: #ee0108;
- padding-bottom: 8px;
- padding-top: 8px;
+   background: #ee0108;
+   padding-bottom: 8px;
+   padding-top: 8px;
 }
 .instalaciones h2{
     font-size: 20px;
@@ -349,7 +365,7 @@ a:hover{
 
 }
 .content-img-inst{
- padding: 15px 30px 30px;
+   padding: 15px 30px 30px;
 }
 .content-img-inst img{
     border-radius: 7px;
@@ -357,7 +373,7 @@ a:hover{
 }
 
 .autoplay-2 .slick-next:before {
-   display: none;
+ display: none;
 }
 .autoplay-2 .slick-prev:before{
     display: none;
@@ -400,11 +416,11 @@ a:hover{
     background-position-y: -264px;
 }
 .capa-compromiso{
-   background: rgba(238, 1, 8, 0.8);
-   color: white;
-   height: 95vh;
-   display: grid;
-   align-items: center;
+ background: rgba(238, 1, 8, 0.8);
+ color: white;
+ height: 95vh;
+ display: grid;
+ align-items: center;
 }
 .text-comp strong{
     color: yellow;
@@ -433,8 +449,8 @@ a:hover{
     padding: 35px 0;
 }
 .software p{
- padding: 0 60px;
- font-size: 20px;
+   padding: 0 60px;
+   font-size: 20px;
 }
 .producto{
     background-image: url(../img/IMG_8046.JPG);
@@ -464,3 +480,246 @@ a:hover{
 .content-producto p{
     font-size: 10px;
 }
+
+
+
+
+@media (min-width: 0px) and (max-width: 767px){
+    .header {
+        padding-top: 0vh;
+    }
+    .nav-logo {
+        height: 30px;
+    }
+    .titulo h1{
+        font-size: 20px;
+    }
+    .info-portada p{
+        font-size: 10px;
+    }
+    .f-info {
+        padding-top: 5px;
+        height: 8vh;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    }
+    .content-social{
+        position: absolute;
+        top: 17vh;
+    }
+    .titulo {
+        padding-top: 0px;
+    }
+    .navbar-nav{
+        background: white;
+    }
+    .nav-item {
+     padding-left: 11px;
+     padding-top: 10px;
+ }
+ .nav-comp {
+    padding: 8px;
+    transform: skewX(0deg);
+}
+
+.nav-comp a {
+    transform: skewX(0deg);
+}
+
+.slick-next:before {
+    font: 50px fontawesome !important;
+}
+.slick-prev:before {
+    font: 50px fontawesome !important;
+}
+.leer-mas a {
+    padding: 7px 14px;
+    font-size: 10px;
+}
+.container-nav{
+    height: 12vh;
+}
+.slick-prev {
+    left: 15px !important;
+}
+.slick-next {
+    right: 15px!important;
+}
+.autoplay-2 img{
+    width: 170px;
+}
+.content-producto {
+    height: 75vh;
+    width: 40vh;
+}
+.content-producto p {
+    font-size: 8px;
+}
+.software p {
+    padding: 0;
+    font-size: 15px;
+}
+.service {
+    padding: 60px 20px 10px;
+}
+.suscribirte {
+    padding-bottom: 40px;
+}
+.opinion .slick-prev {
+    top: -70px;
+    z-index: 999;
+    left: 200px !important;
+}
+.opinion .slick-prev:before {
+    font: 35px fontawesome !important;
+
+}
+.opinion .slick-next:before {
+    font: 35px fontawesome !important;
+
+}
+.text-contact {
+    padding-top: 45px;
+
+}
+.centrar-grid p {
+    padding: 0px 20px;
+    font-size: 11px;
+    font-style: italic;
+}
+.producto {
+    height: 90vh;
+}
+.capa-producto {
+
+    height: 90vh;
+}
+.fondo-software {
+    padding: 15px;
+    
+
+}
+.c-equipo h2 {
+    font-size: 15px;
+    text-align: initial;
+}
+.c-equipo a {
+    font-size: 8px;
+    
+}
+.c-equipo p {;
+    text-align: initial;
+}
+.info-equipo p {
+    font-size: 10px;
+    font-weight: bold;
+}
+.equipo {
+    padding: 50px 20px 25px;
+}
+.info-equipo li {
+    font-size: 9px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.back-presente p{
+    font-size: 12px;
+}
+.back-presente{
+    padding: 15px;
+}
+.content-opinion h4 {
+    font-size: 15px;
+    
+}
+.service p {
+    font-size: 10px;
+    color: #676565;
+}
+.content-person {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+.footer h3 {
+    font-size: 15px;
+}
+.footer p, .footer li {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+.f-padding{
+
+    padding-top: 20px;
+}
+.footer {
+    padding: 10px 0 50px;
+}
+.text-comp p {
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.titulo-comp strong {
+    font-size: 20px;
+    border-bottom: 3px solid;
+}
+.content-card-maqui {
+    margin-bottom: 30px;
+}
+.content-text-maqui p {
+    font-size: 10px;
+    padding: 0px 20px;
+}
+.content-text-maqui h5 {
+    margin-top: 30px;
+}
+.titulo-maqui h4{
+    font-size: 15px;
+}
+.presente h2 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.titulo-instalaciones h2{
+    font-size: 15px;
+}
+.border-bottom {
+    padding-bottom: 30px;
+}
+.section-product h2{
+    font-size: 15px
+}
+.maquinarias {
+    padding: 50px 20px 25px;
+}
+.separador-maqui {
+    padding: 0px 20px;
+}
+.content-border {
+    padding-bottom: 20px;
+}
+.software h1 {
+    font-size: 15px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+
+}
+@media (min-width: 1201px) and (max-width: 1600px){
+
+
+
+}
+
+@media (min-width: 1601px) and (max-width: 2048px){
+
+
+
+}
+
+/* Demo Navigation */

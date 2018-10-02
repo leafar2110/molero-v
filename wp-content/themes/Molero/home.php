@@ -17,7 +17,7 @@
 							</div>
 							<div class="leer-mas"><a href="">Leer Mas</a></div>
 						</div>
-						<div class=" col-md-4">
+						<div class=" col-md-4 content-social">
 							<div class="get-social">
 								<div><a href=""><i class="fa fa-rss"></i></a></div>
 								<div><a href=""><i class="fa fa-facebook"></i></a></div>

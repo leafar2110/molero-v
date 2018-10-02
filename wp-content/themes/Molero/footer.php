@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 f-padding">
 				<div class="separador-f">
 					<h3>NAVEGACIÓN</h3>
 					<p></p>
@@ -22,7 +22,7 @@
 
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 f-padding">
 				<div class="separador-f">
 					<h3>REDES SOCIALES</h3>
 					<p></p>
@@ -32,7 +32,7 @@
 					
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 f-padding">
 				<div class="separador-f">
 					<h3>POST RECIENTES</h3>
 					<p></p>
@@ -48,7 +48,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 f-padding">
 				<div class="separador-f">
 					<h3>COMENTARIOS RECIENTES</h3>
 					<p></p>
@@ -93,11 +93,12 @@
 			});
 			$('.autoplay-2').slick({
 				slidesToShow: 3,
-				slidesToScroll: 3,
+				slidesToScroll: 1,
 			/*	autoplay: true,
 			autoplaySpeed: 4000,*/
-				infinite: true,
-			});
+			infinite: true,
+			
+		});
 
 		});
 
