@@ -567,7 +567,7 @@ a:hover{
 .opinion .slick-prev {
     top: -70px;
     z-index: 999;
-    left: 200px !important;
+    left: 36vh !important;
 }
 .opinion .slick-prev:before {
     font: 35px fontawesome !important;
