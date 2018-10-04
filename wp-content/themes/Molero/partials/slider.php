@@ -1,6 +1,15 @@
+		<div class="autoplay">
+			<?php $argsBanner = array( 'post_type' => 'carrusel', 
+				'showposts' => 3,  );  
 
-<div class="autoplay">
-	<div><img class="img-carrusel" src="<?php echo get_template_directory_uri();?>/assets/img/02.jpg" width="100%" alt="1"/></div>
-	<div><img class="img-carrusel" src="<?php echo get_template_directory_uri();?>/assets/img/03.jpg" width="100%" alt="3"/></div>
-	<div><img class="img-carrusel" src="<?php echo get_template_directory_uri();?>/assets/img/04.jpg" width="100%" alt="3"/></div>
-</div>
+				$Banners = new WP_Query($argsBanner); ?>   
+				<?php if ($Banners->have_posts()) : while($Banners->have_posts() ) : $Banners->the_post(); ?>  
+					<?php $post_thumbnail_id = get_post_thumbnail_id( $Banners->id );  
+					$url = wp_get_attachment_url( $post_thumbnail_id);?> 
+					<div><img class="img-carrusel" src="<?php echo $url; ?>" width="100%" alt="1"/></div>
+				<?php endwhile; endif; ?>
+
+
+
+
+			</div>

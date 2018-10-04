@@ -94,10 +94,23 @@
 			$('.autoplay-2').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
+				dots: true,
 			/*	autoplay: true,
 			autoplaySpeed: 4000,*/
 			infinite: true,
-			
+			responsive: [{
+				breakpoint: 768,
+				settings: {
+					arrows: true,
+					slidesToShow: 1,
+				}
+			}, {
+				breakpoint: 480,
+				settings: {
+					arrows: true,
+					slidesToShow: 1
+				}
+			}]
 		});
 
 		});

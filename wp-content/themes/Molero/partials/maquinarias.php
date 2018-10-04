@@ -3,45 +3,27 @@
 		<div class="titulo-maqui text-center">
 			<h4><strong>MAQUINARIAS DE ÚLTIMA GENERACIÓN</strong></h4>
 		</div>
-		<div class="row">
-			<div class="col-md-4 separador-maqui">
-				<div class="content-card-maqui">
-					<div class="content-img-maqui">
-						<img class="img-carrusel img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/04.jpg" width="100%" alt="3"/>
-					</div>
-					<div class="content-text-maqui text-center">
-						<h5>CABINA – HORNO</h5>
-						<p>de Pinturas Fercabin con medidas especiales para vehículos
-						de grandes dimensiones.</p>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 separador-maqui">
-				<div class="content-card-maqui">
-					<div class="content-img-maqui">
-						<img class="img-carrusel img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/04.jpg" width="100%" alt="3"/>
-					</div>
-					<div class="content-text-maqui text-center">
-						<h5>ZONA DE PREPARACIÓN</h5>
-						<p>Fercabin con motor de 7,5cv.</p>
-						
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 separador-maqui">
-				<div class="content-card-maqui">
-					<div class="content-img-maqui">
-						<img class="img-carrusel img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/04.jpg" width="100%" alt="3"/>
-					</div>
-					<div class="content-text-maqui text-center">
-						<h5>MINI BANCADA COIRO LB3500</h5>
-						<p>con todo su utillaje, software de medición y compás de medida.</p>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
+		<div class="row">
+		<?php $argsBanner = array( 'post_type' => 'maquinarias', 
+			'showposts' => 12,  );  
+
+			$Banners = new WP_Query($argsBanner); ?>   
+			<?php if ($Banners->have_posts()) : while($Banners->have_posts() ) : $Banners->the_post(); ?>  
+				<?php $post_thumbnail_id = get_post_thumbnail_id( $Banners->id );  
+				$url = wp_get_attachment_url( $post_thumbnail_id);?> 
+					<div class="col-md-4 separador-maqui">
+						<div class="content-card-maqui">
+							<div class="content-img-maqui">
+								<img class="img-carrusel img-fluid" src="<?php echo $url; ?>" width="100%" alt="3"/>
+							</div>
+							<div class="content-text-maqui text-center">
+								<h5><?php the_title(); ?></h5>
+								<p><?php the_excerpt(); ?></p>
+
+							</div>
+						</div>
+					</div>
+			<?php endwhile; endif; ?>
+		</div>
 </section>

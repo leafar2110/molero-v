@@ -18,222 +18,85 @@
 					<a href="">¡SUSCRíBETE!</a></div>
 				</div>
 			</div>
+
+
 			<div class="col-md-9">
 				<h2 class="text-center"><strong>SERVICIOS</strong></h2>
 				<div class="row">
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3>TALLER <strong>DE MECÁNICA, CHAPA Y PINTURA</strong></h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3>SERVICIO <strong>A DOMICILIO</strong></h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3>PERSONAS <strong>DISCAPACITADAS</strong> </h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3>VEHÍCULOS <strong>DE SUSTITUCIÓN</strong> </h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3>TRABAJAMOS <strong>FINES DE SEMANA Y FESTIVOS</strong> </h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3>AQUATRANSFER <strong>(IMPRESION EN 3D)</strong> </h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3><strong>CRISTALERÍA</strong></h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3><strong>PLÁSTICOS</strong></h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="content-service">
-							<div class="img-service">
-								<img src="<?php echo get_template_directory_uri();?>/assets/img/paragolpes2.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="text-service">
-								<h3><strong>FAROS</strong></h3>
-								<div class="content-text-service">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="leer-service">
-									<a href=""><p><strong>SERGUIR LEYENDO</strong></p></a>
-								</div>
-							</div>
-						</div>
-					</div>
+					<?php $argsBanner = array( 'post_type' => 'servicio', 
+						'showposts' => 12,  );  
 
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<hr>
-					</div>
-					<div class="col-md-6">
-						<div class="form-style">
-							<div class="text-contact">
-								<h3>TU OPINION <strong>ES IMPORTANTE</strong></h3>
-								<p>Dejanos tu comentario</p>
+						$Banners = new WP_Query($argsBanner); ?>   
+						<?php if ($Banners->have_posts()) : while($Banners->have_posts() ) : $Banners->the_post(); ?>  
+							<?php $post_thumbnail_id = get_post_thumbnail_id( $Banners->id );  
+							$url = wp_get_attachment_url( $post_thumbnail_id);?> 
+							<div class="col-md-4">
+								<div class="content-service">
+									<div class="img-service">
+										<img src="<?php echo $url; ?>" alt="" class="img-fluid">
+									</div>
+									<div class="text-service">
+										<h3><strong><?php the_title(); ?></strong></h3>
+										<div class="content-text-service">
+											<p><?php the_excerpt(); ?></p>
+										</div>
+										<div class="leer-service">
+											<a href="<?php the_permalink(); ?>"><p><strong>SERGUIR LEYENDO</strong></p></a>
+										</div>
+									</div>
+								</div>
 							</div>
-							<form action="">
-								<div class="row">
-									
-									<div class="col-md-6">
-										<legend> Nombre y Apellido <strong>*</strong></legend>
-										<input type="text">
-									</div>
-									<div class="col-md-6">
-										<legend> Correo Electronico <strong>*</strong></legend>
-										<input type="email">
-									</div>
-									<div class="col-md-12">
-										<legend> Escribe tu mensaje <strong>*</strong></legend>
-										<textarea name="" id="" cols="30" rows="6"></textarea>
-									</div>
-								</div>
-								<input type="submit" class="boton-enviar">
-							</form>
-						</div>
+						<?php endwhile; endif; ?>
 					</div>
-					<div class="col-md-6">
-						<div class="text-contact">
-							<h3><strong>TESTIMONIOS</strong></h3>
-							<p> Lo que nuestros clientes opinan</p>
-						</div>
-						<div class="">
-							<div class="opinion">
-								<div class="text-center content-opinion">
-									<div class="centrar-grid  text-opinion">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores labore nisi eos magnam, voluptatibus odio facere tempora dignissimos saepe nemo tempore sequi, quam expedita error. Aliquam recusandae quae rerum laborum?</p>
-									</div>
-									<h4 class="text-center"><strong>Pedro Pérez</strong></h4>
-									<p>Chofer</p>
-								</div>
-								<div class="text-center content-opinion">
-									<div class="centrar-grid  text-opinion">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores labore nisi eos magnam, voluptatibus odio facere</p>
-									</div>
-									<h4 class="text-center"><strong>Juan Pérez</strong></h4>
-									<p>Chofer</p>
-								</div>
-								<div class="text-center content-opinion">
-									<div class="centrar-grid text-opinion">
-										<p>voluptatibus odio facere tempora dignissimos saepe nemo tempore sequi, quam expedita error. Aliquam recusandae quae rerum laborum?</p>
-									</div>
-									<h4 class="text-center"><strong>Miguel Pérez</strong></h4>
-									<p>Chofer</p>
-								</div>
-							</div></div>
-						</div>
-						<div class="col-md-12 linea-s">
+				</div>
+
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
 							<hr>
 						</div>
-					</div>
+						<div class="col-md-6">
+							<div class="form-style">
+								<div class="text-contact">
+									<h3>TU OPINION <strong>ES IMPORTANTE</strong></h3>
+									<p>Dejanos tu comentario</p>
+								</div>
+								<form action="">
+									<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2, 'title' => false, 'description' => false ) ); ?>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="text-contact">
+								<h3><strong>TESTIMONIOS</strong></h3>
+								<p> Lo que nuestros clientes opinan</p>
+							</div>
+							<div class="">
+								<div class="opinion">
+									<?php $argsBanner = array( 'post_type' => 'testimonio', 
+										'showposts' => 12,  );  
 
+										$Banners = new WP_Query($argsBanner); ?>   
+										<?php if ($Banners->have_posts()) : while($Banners->have_posts() ) : $Banners->the_post(); ?>  
+											<?php $post_thumbnail_id = get_post_thumbnail_id( $Banners->id );  
+											$url = wp_get_attachment_url( $post_thumbnail_id);?> 
+											<div class="text-center content-opinion">
+												<div class="centrar-grid  text-opinion">
+													<p><?php the_excerpt(); ?></p>
+												</div>
+												<h4 class="text-center"><strong><?php the_field( 'autor' ); ?></strong></h4>
+												<p><?php the_field( 'profesion' ); ?></p>
+											</div>
+										<?php endwhile; endif; ?>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 linea-s">
+								<hr>
+							</div>
+						</div>
+
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
