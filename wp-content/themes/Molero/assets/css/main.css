@@ -15,6 +15,20 @@ a:hover{
     right: 0;
     left: 0;
 }
+.single-servicio{   
+    padding: 70px 0;
+}
+.padre-content{
+    position: relative;
+    height: 49vh;
+    background-image: url(../img/04.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+    object-fit: cover;
+}
+.header-2 {
+    padding-top: 200px;
+}
 .header{
     padding-top: 10vh;
     position: absolute;
@@ -108,12 +122,15 @@ a:hover{
     padding-top: 10px;
 }
 .service{
-    padding: 80px 0 40px;
+    padding: 50px 0;
 }
 .back-presente{
     background: #ee0108;
     color: white;
     padding: 30px;
+}
+.clientes{
+    padding-top: 50px;
 }
 .presente h2{
    font-size: 20px;
@@ -137,10 +154,11 @@ a:hover{
     font-style: italic;
 }
 .text-service h3{
-    font-size: 11px;
-    padding: 20px 0px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 17px;
+   font-size: 11px;
+   padding: 15px 0px 0;
+   height: 8vh;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 0px;
 }
 .leer-service strong{
     font-size: 9px;
@@ -228,6 +246,14 @@ a:hover{
     padding: 50px 0;
 
 }
+.single-servicio p{
+    
+    color: #827f7f;
+}
+.img-single img{
+    height: 300px;
+    object-fit: cover;
+}
 .c-equipo{
     position: relative;
     padding-bottom: 5px;
@@ -297,7 +323,7 @@ a:hover{
     background-size: cover;
     background-position-y: -200px;
     object-fit: cover;
-    height: 80vh;
+    height: 70vh;
 }
 .text-instalaciones{
     background: #0000007d;
@@ -320,8 +346,20 @@ a:hover{
     margin-bottom: 20px;
 }
 .capa{
-    background: rgba(0, 0, 0, 0.6);
-    height: 80vh;
+
+    background: rgba(0, 0, 0, 0.5);
+    height: 70vh;
+}
+.presente{
+    padding-top: 50px;
+}
+.product-marcas img {
+
+    margin-top: 2vh;
+    box-shadow: 0px 0px 15px 2px #00000070;
+    width: 20vh;
+    max-height: 8vh;
+    margin-bottom: 1vh;
 }
 .opinion .slick-next {
     top: -70px;
@@ -332,8 +370,14 @@ a:hover{
 .opinion .slick-prev{
     top: -70px;
     z-index: 999;
-    left: 465px;
+    left: 450px;
 }
+.clientes p{
+
+    font-size: 10px;
+    color: #ababab;
+}
+
 .opinion .slick-prev:before {
     content: "\f104" !important;
     font: 35px fontawesome;
@@ -385,6 +429,7 @@ a:hover{
 }
 .maquinarias{
     padding: 50px 0;
+
 }
 .titulo-maqui h4{
     font-size: 17px;
@@ -392,9 +437,12 @@ a:hover{
     margin-bottom: 50px;
     border-bottom: 1px solid #ccc;
 }
+.content-info{
+    height: 65px;
+}
 .content-card-maqui{
     border: 1px solid #ccc;
-    height: 70vh;
+    height: 400px;
 }
 .content-text-maqui h5{
     margin-top: 47px;
@@ -405,10 +453,15 @@ a:hover{
 .content-text-maqui p{
     font-size: 13px;
     color: #737373;
-    padding: 10px 20px;
+    padding: 0px 20px;
 }
 .separador-maqui{
     padding: 0 35px;
+}
+.content-img-maqui img{
+ height: 200px;
+ object-fit: cover;
+
 }
 .content-border{
     border-bottom: 1px solid #ccc;
@@ -458,26 +511,46 @@ a:hover{
    font-size: 20px;
 }
 .producto{
-    background-image: url(../img/IMG_8046.JPG);
-    background-image: url(../img/IMG_8046.JPG);
-    height: 80vh;
-    background-size: cover;
-    background-position-y: -100px;
+    background-image: url(../img/fondo-productos.jpg);
+    height: 65vh;
+    background-size: contain;
+    object-fit: cover;
+
 }
 .capa-producto{
-    background: #000000e0;
-    height: 80vh;
+    height: 65vh;
     display: grid;
     align-items: center;
     justify-items: center;
-
+    background-repeat-y: no-repeat;
 }
 .content-producto{
     padding: 10px;
     background: white;
-
-    height: 48vh;
     width:100vh;
+}
+.section-product{
+    padding-top: 50px;
+}
+.maquinaria .slick-prev {
+    z-index: 999 !important;
+    left: 47% !important;
+    top: 105% !important;
+}
+.maquinaria .slick-next {
+    z-index: 999 !important;
+    right: 47% !important;
+    top: 105%  !important;
+}
+.maquinaria .slick-prev:before {
+   background-color: #ee0108 !important;
+   padding: 0 10px;
+   font-size: 35px;
+}
+.maquinaria .slick-next:before {
+    background-color: #ee0108 !important;
+    padding: 0 10px;
+    font-size: 35px;
 }
 .section-product h2{
     font-size: 20px;

@@ -20,13 +20,13 @@
 
 				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 					<ul class="navbar-nav ">
-						<li class="nav-item "><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">INICIO</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">¿QUIÉNES SOMOS?</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">PRESENTE</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">CLIENTE</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">EQUIPO</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>">PRODUCTO</a></li>
-						<li class="nav-item nav-comp"><a class="nav-link" href="<?php echo bloginfo('url').'/index.php'; ?>"><strong>NUESTRO COMPROMISO</strong></a></li>
+						<li class="nav-item "><a class="nav-link" href="">INICIO</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about">¿QUIÉNES SOMOS?</a></li>
+						<li class="nav-item"><a class="nav-link" href="#clientes">CLIENTE</a></li>
+						<li class="nav-item"><a class="nav-link" href="#presente">PRESENTE</a></li>
+						<li class="nav-item"><a class="nav-link" href="#equipo">EQUIPO</a></li>
+						<li class="nav-item"><a class="nav-link" href="#producto">PRODUCTO</a></li>
+						<li class="nav-item nav-comp"><a class="nav-link" href="#compromiso"><strong>NUESTRO COMPROMISO</strong></a></li>
 					</ul>
 				</div>
 			</div>

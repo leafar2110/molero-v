@@ -68,9 +68,13 @@
 			<p class="container"><small>© Copyright 2018</small></p>
 		</div>
 	</footer>
+
+	<!-- ***********************END SECTION HOME*************************** -->
+	<?php  get_template_part('sections/partials/subirAlcielo'); ?>
+	<!-- ***********************END SECTION HOME*************************** -->
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/slick.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/slick.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/wow.min.js"></script>
 	<script type="text/javascript">
@@ -92,6 +96,27 @@
 				cssEase: 'linear',
 			});
 			$('.autoplay-2').slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				dots: true,
+			/*	autoplay: true,
+			autoplaySpeed: 4000,*/
+			infinite: true,
+			responsive: [{
+				breakpoint: 768,
+				settings: {
+					arrows: true,
+					slidesToShow: 1,
+				}
+			}, {
+				breakpoint: 480,
+				settings: {
+					arrows: true,
+					slidesToShow: 1
+				}
+			}]
+		});
+			$('.maquinaria').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				dots: true,
